@@ -55,5 +55,6 @@ public class AutomateMyntra {
 //			}
 //		}
 		WebUI.enhancedClick(locator.buttonAddtoBag())
+		println("The End")
 	}
 }
