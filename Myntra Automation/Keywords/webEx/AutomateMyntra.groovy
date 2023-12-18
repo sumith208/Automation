@@ -33,7 +33,7 @@ public class AutomateMyntra {
 	String size = "9";
 	MyntraLocator locator = new MyntraLocator();
 
-	public openBrowser() {
+	def openBrowser() {
 		WebUI.openBrowser("https://www.myntra.com/")
 		WebUI.setText(locator.inputSearchProducts(),"shoes")
 		WebUI.sendKeys(locator.inputSearchProducts(),Keys.chord(Keys.ENTER))
