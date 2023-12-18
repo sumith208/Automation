@@ -21,4 +21,20 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable
 
 public class MyntraLocator {
+
+	public TestObject inputSearchProducts() {
+		return findTestObject("Object Repository/Myntra_OR/inputSearchProducts")
+	}
+	public TestObject RadioButtonMen() {
+		return findTestObject("Object Repository/Myntra_OR/RadioButtonMen")
+	}
+	public TestObject imageShoe() {
+		return findTestObject("Object Repository/Myntra_OR/imageShoe")
+	}
+	public TestObject buttonSizes() {
+		return findTestObject("Object Repository/Myntra_OR/buttonSizes")
+	}
+	public TestObject buttonAddtoBag() {
+		return findTestObject("Object Repository/Myntra_OR/buttonAddtoBag")
+	}
 }
