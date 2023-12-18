@@ -40,20 +40,22 @@ public class AutomateMyntra {
 		WebUI.waitForElementPresent(locator.RadioButtonMen(), 10)
 		WebUI.enhancedClick(locator.RadioButtonMen())
 		WebUI.enhancedClick(locator.imageShoe())
-//		Thread.sleep(3000)
+		//		Thread.sleep(3000)
 		WebUI.switchToWindowIndex(1)
 		WebUI.enhancedClick(locator.buttonSizes(), FailureHandling.STOP_ON_FAILURE)
-//		List<WebElement> elements= WebUI.findWebElements(locator.buttonSizes(), 5, FailureHandling.STOP_ON_FAILURE)
-//		println(elements)
+		//		List<WebElement> elements= WebUI.findWebElements(locator.buttonSizes(), 5, FailureHandling.STOP_ON_FAILURE)
+		//		println(elements)
 
-//		for(WebElement ele : elements) {
-//			println(ele)
-//			println(ele.getText())
-//			if(ele.getText().equals(size)) {
-//				ele.click()
-//				break
-//			}
-//		}
+		//		for(WebElement ele : elements) {
+		//			println(ele)
+		//			println(ele.getText())
+		//			if(ele.getText().equals(size)) {
+		//				ele.click()
+		//				break
+		//			}
+		//		}
 		WebUI.enhancedClick(locator.buttonAddtoBag())
+		WebUI.enhancedClick(locator.buttonBag())
+		
 	}
 }
