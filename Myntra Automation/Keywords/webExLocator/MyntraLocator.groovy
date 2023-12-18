@@ -37,4 +37,9 @@ public class MyntraLocator {
 	public TestObject buttonAddtoBag() {
 		return findTestObject("Object Repository/Myntra_OR/buttonAddtoBag")
 	}
+	public TestObject buttonBag() {
+		return findTestObject("Object Repository/Myntra_OR/buttonBag")
+	}
+
+	
 }
